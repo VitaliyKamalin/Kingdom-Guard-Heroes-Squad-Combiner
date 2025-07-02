@@ -1,6 +1,7 @@
 ## 📦 Kingdom Guard: Heroes Squad Combiner
 
 Веб-приложение для подбора, фильтрации и сортировки отрядов героев из игры **Kingdom Guard**.
+### 🔗 [Открыть демо](https://vitaliykamalin.github.io/Kingdom-Guard-Heroes-Squad-Combiner/)
 
 ---
 
