@@ -1,0 +1,392 @@
+.element-group {
+  margin-bottom: 32px;
+}
+.heroes-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.hero-tile {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px;
+  width: 180px;
+  background: #fff;
+  box-shadow: 2px 2px 8px #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-image {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+.hero-name {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.hero-perks {
+  width: 100%;
+}
+.perk-star {
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+#perk-sort-block {
+  background: #f8fafc;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #e0e7ef;
+  padding: 16px 8px 8px 8px;
+  margin-bottom: 24px;
+}
+
+#perk-columns {
+  display: flex;
+  gap: 16px;
+}
+
+.perk-col-title {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 6px;
+  text-align: center;
+  color: #2d3a4a;
+  letter-spacing: 0.2px;
+}
+
+.perk-column {
+  min-height: 30px;
+  min-width: 150px;
+  background: #fff;
+  border: 1.5px solid #b6c2d1;
+  border-radius: 8px;
+  padding: 6px 4px;
+  transition: box-shadow 0.2s;
+  box-shadow: 0 1px 4px #e0e7ef;
+  max-width: 250px;
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+.perk-item {
+  display: flex;
+  align-items: center;
+  background: #eaf1fb;
+  border-radius: 6px;
+  margin-bottom: 4px;
+  padding: 4px 8px;
+  font-size: 14px;
+  cursor: grab;
+  user-select: none;
+  transition: background 0.2s;
+  border: 1px solid #d0d7e2;
+  min-height: 28px;
+}
+
+.perk-item:last-child {
+  margin-bottom: 0;
+}
+
+.perk-item:active {
+  background: #dbeafe;
+}
+
+.perk-num {
+  font-weight: bold;
+  color: #6b7280;
+  margin-right: 6px;
+  min-width: 18px;
+  text-align: right;
+  font-size: 13px;
+}
+
+.perk-multicolumn {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 столбца, можно 3 */
+  gap: 4px 8px;
+  max-width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+/* Squad Combos Block */
+#squad-combos-block {
+  margin: 32px 0;
+}
+
+.squad-combo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px 18px;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 1250px) {
+  .squad-combo-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.squad-combo-row {
+  position: relative;
+  background: #f8fafc;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px #e0e7ef;
+  padding: 18px 22px 14px 22px;
+  border: 1.5px solid #b6c2d1;
+  min-width: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.squad-combo-num {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #f39c12;
+  background: #fffbe6;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 2px #e0e7ef;
+  z-index: 2;
+}
+
+.squad-combo-heroes {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.squad-leader-icon {
+  position: relative;
+  width: 128px;
+  height: 128px;
+  margin-right: 8px;
+}
+.squad-leader-icon img {
+  width: 128px;
+  height: 128px;
+  border: 3px solid #f39c12;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #fff;
+  object-fit: cover;
+}
+.squad-leader-emoji {
+  position: absolute;
+  bottom: -28px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 26px;
+  pointer-events: none;
+}
+
+.squad-member-icon {
+  position: relative;
+  width: 96px;
+  height: 96px;
+  margin-right: 6px;
+}
+.squad-member-icon img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: 2px solid #b6c2d1;
+  box-shadow: 0 0 0 2px #fff;
+  object-fit: cover;
+}
+.squad-member-emoji {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  pointer-events: none;
+}
+
+.squad-plus {
+  font-size: 32px;
+  color: #b6c2d1;
+  margin: 0 8px;
+}
+
+.squad-combo-perks {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #2d3a4a;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.squad-combo-perks-title {
+  font-size: 20px;
+  margin-bottom: 2px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+.squad-combo-perk {
+  margin-left: 28px;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.squad-size-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+.squad-size-btn {
+  background: #eaf1fb;
+  border: 1.5px solid #b6c2d1;
+  border-radius: 6px;
+  padding: 4px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 4px;
+  cursor: pointer;
+  transition: background 0.15s, border 0.15s;
+}
+.squad-size-btn.active,
+.squad-size-btn:hover {
+  background: #f39c12;
+  color: #fff;
+  border-color: #f39c12;
+}
+
+.squad-hero-stars {
+  position: static;
+  left: auto;
+  bottom: auto;
+  transform: none;
+  display: flex;
+  gap: 1px;
+  font-size: 18px;
+  z-index: 2;
+  pointer-events: none;
+  background: none;
+  border-radius: 0;
+  min-width: 0;
+  justify-content: center;
+  margin-top: 0px;
+}
+.squad-hero-star {
+  color: #f39c12;
+  text-shadow: 0 1px 2px #fff, 0 0 1px #b6c2d1;
+  font-size: 18px;
+  line-height: 1;
+}
+.squad-hero-star.inactive {
+  color: #222;
+  opacity: 0.25;
+}
+
+.hero-card-green { background: #e6ffe6; border-color: #4caf50; }
+.hero-card-yellow { background: #fffbe6; border-color: #ffd600; }
+.hero-card-red { background: #ffe6e6; border-color: #e53935; }
+.hero-card-blue { background: #e6f0ff; border-color: #1976d2; }
+.hero-card-grey { background: #f0f0f0; border-color: #bdbdbd; opacity: 0.6; }
+
+.perk-sort-controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 18px;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+.reset-btn {
+  background: #e53935;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 18px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+  box-shadow: 0 1px 4px #e0e7ef;
+}
+.reset-btn:hover {
+  background: #b71c1c;
+}
+
+.max-squads-label {
+  font-size: 15px;
+  font-weight: 500;
+  color: #2d3a4a;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.max-squads-input {
+  width: 60px;
+  padding: 3px 8px;
+  border: 1.5px solid #b6c2d1;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-left: 4px;
+}
+
+.squad-hide-btn {
+  background: #eaf1fb;
+  color: #2d3a4a;
+  border: 1.5px solid #b6c2d1;
+  margin-left: 8px;
+}
+.squad-hide-btn:hover {
+  background: #b6c2d1;
+  color: #fff;
+}
+
+#preloader {
+  position: fixed;
+  z-index: 9999;
+  inset: 0;
+  background: linear-gradient(120deg, #f8fafc 60%, #e0e7ef 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.4s;
+}
+#preloader.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+.preloader-spinner {
+  width: 64px;
+  height: 64px;
+  border: 7px solid #e0e7ef;
+  border-top: 7px solid #f39c12;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 18px;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg);}
+  100% { transform: rotate(360deg);}
+}
+.preloader-text {
+  font-size: 22px;
+  color: #2d3a4a;
+  font-weight: 600;
+  letter-spacing: 1px;
+}

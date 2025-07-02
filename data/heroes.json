@@ -1,0 +1,3838 @@
+{
+  "heroes": [
+    {
+      "id": "padme",
+      "hasHero": false,
+      "name": "Падме (Аукцион)",
+      "image": "assets/images/padme.jpg",
+      "element": "Archer",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 30,
+          "leaderOnly": true,
+          "cards_need": 40,
+          "baseDamage": 123
+        },
+        {
+          "lvl": 2,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false,
+          "cards_need": 120,
+          "baseDamage": 234
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false,
+          "cards_need": 600,
+          "baseDamage": 567
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 15,
+          "leaderOnly": true,
+          "cards_need": 950,
+          "baseDamage": 789
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": false,
+      "self_selection_season": null,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "sahar",
+      "hasHero": true,
+      "name": "Сэйхар (Сезон 0)",
+      "image": "assets/images/sahar.jpg",
+      "element": "Archer",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 4,
+          "key": "heal_speed_percent",
+          "value": 25,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 0,
+      "from_awards_hall": true,
+      "from_event": true
+    },
+    {
+      "id": "meg",
+      "hasHero": false,
+      "name": "Мэг (Сезон 19)",
+      "image": "assets/images/meg.jpg",
+      "element": "Archer",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "heal_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 19,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "johannes",
+      "hasHero": false,
+      "name": "Йоханнес (Сезон 27)",
+      "image": "assets/images/johannes.jpg",
+      "element": "Archer",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "heal_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 27,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "pan",
+      "hasHero": false,
+      "name": "Пан (Сезон 0)",
+      "image": "assets/images/pan.jpg",
+      "element": "Archer",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 30,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "cost_energy_percent",
+          "value": 10,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "carry_weight_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 0,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "fatima",
+      "hasHero": false,
+      "name": "Фатима (Сезон 15)",
+      "image": "assets/images/fatima.jpg",
+      "element": "Archer",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "cost_energy_percent",
+          "value": 10,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 15,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "bella",
+      "hasHero": false,
+      "name": "Белла (Сезон 17)",
+      "image": "assets/images/bella.jpg",
+      "element": "Archer",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "heal_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "carry_weight_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 17,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "montag",
+      "hasHero": false,
+      "name": "Монтаг (Сезон 22)",
+      "image": "assets/images/montag.jpg",
+      "element": "Archer",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "carry_weight_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "collect_gold_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 22,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "ptolemy",
+      "hasHero": true,
+      "name": "Птолемей (Клеопатра, Сезон 24)",
+      "image": "assets/images/ptolemy.jpg",
+      "element": "Archer",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "heal_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 24,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "sebastian",
+      "hasHero": true,
+      "name": "Себастьян (Сезон 13)",
+      "image": "assets/images/sebastian.jpg",
+      "element": "Archer",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 30,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 13,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "livia",
+      "hasHero": false,
+      "name": "Ливия (Сезон 7)",
+      "image": "assets/images/livia.jpg",
+      "element": "Archer",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "cost_energy_percent",
+          "value": 10,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 7,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "maya",
+      "hasHero": false,
+      "name": "Майя (Сезон 27)",
+      "image": "assets/images/maya.jpg",
+      "element": "Archer",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "heal_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 27,
+      "from_awards_hall": false,
+      "from_event": false
+    },
+    {
+      "id": "colin",
+      "hasHero": false,
+      "name": "Колин (Сезон 11)",
+      "image": "assets/images/colin.jpg",
+      "element": "Archer",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 30,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 11,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "arwin",
+      "hasHero": false,
+      "name": "Арвин (Сезон 0)",
+      "image": "assets/images/arwin.jpg",
+      "element": "Archer",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "TD_archer_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "TD_archer_power_percent",
+          "value": 15,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 3,
+          "key": "power_archer_percent",
+          "value": 15,
+          "leaderOnly": false
+        }
+      ],
+      "from_tavern_common": true,
+      "from_tavern_advanced": true,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 0,
+      "from_awards_hall": true,
+      "from_event": false
+    },
+    {
+      "id": "richard",
+      "hasHero": false,
+      "name": "Ричард (Сезон 3)",
+      "image": "assets/images/richard.jpg",
+      "element": "Archer",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": null,
+          "value": null,
+          "leaderOnly": null
+        },
+        {
+          "lvl": 4,
+          "key": null,
+          "value": null,
+          "leaderOnly": null
+        },
+        {
+          "lvl": 5,
+          "key": null,
+          "value": null,
+          "leaderOnly": null
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 3,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "torvi",
+      "hasHero": false,
+      "name": "Торви (Сезон 5)",
+      "image": "assets/images/torvi.jpg",
+      "element": "Archer",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 5,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "trist",
+      "hasHero": false,
+      "name": "Трист (Сезон 23)",
+      "image": "assets/images/trist.jpg",
+      "element": "Archer",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "heal_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 23,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "kadir",
+      "hasHero": false,
+      "name": "Кадыр (Сезон 0)",
+      "image": "assets/images/kadir.jpg",
+      "element": "Archer",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "carry_weight_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "heal_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 0,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "o'neil",
+      "hasHero": true,
+      "name": "О'Нил (Сезон 0)",
+      "image": "assets/images/oneil.jpg",
+      "element": "Archer",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "heal_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 0,
+      "from_awards_hall": true,
+      "from_event": true
+    },
+    {
+      "id": "ariza",
+      "hasHero": true,
+      "name": "Ариза (Сезон 9)",
+      "image": "assets/images/ariza.jpg",
+      "element": "Archer",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "heal_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 9,
+      "from_awards_hall": true,
+      "from_event": true
+    },
+    {
+      "id": "gabriel",
+      "hasHero": true,
+      "name": "Габриэль (Сезон 0)",
+      "image": "assets/images/gabriel.jpg",
+      "element": "Archer",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "heal_speed_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 0,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "arthur",
+      "hasHero": true,
+      "name": "Артур (Сезон 0)",
+      "image": "assets/images/arthur.jpg",
+      "element": "Archer",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "offline_gold_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "collect_gold_percent",
+          "value": 20,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": true,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 0,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "jennifer",
+      "hasHero": true,
+      "name": "Дженнифер (Сезон 0)",
+      "image": "assets/images/jennifer.jpg",
+      "element": "Archer",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "TD_archer_power_percent",
+          "value": 30,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "carry_weight_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 0,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "harold",
+      "hasHero": true,
+      "name": "Гарольд (SR, Сезон 0)",
+      "image": "assets/images/harold.jpg",
+      "element": "Archer",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "TD_power_percent",
+          "value": 10,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 2,
+          "key": "cost_energy_percent",
+          "value": 10,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "TD_archer_power_percent",
+          "value": 15,
+          "leaderOnly": false
+        }
+      ],
+      "from_tavern_common": true,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 0,
+      "from_awards_hall": true,
+      "from_event": false
+    },
+    {
+      "id": "arwyn",
+      "hasHero": true,
+      "name": "Арвин (SR, Сезон 0)",
+      "image": "assets/images/arwyn.jpg",
+      "element": "Archer",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "TD_archer_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "TD_archer_power_percent",
+          "value": 15,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 3,
+          "key": "power_archer_percent",
+          "value": 15,
+          "leaderOnly": false
+        }
+      ],
+      "from_tavern_common": true,
+      "from_tavern_advanced": true,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 0,
+      "from_awards_hall": true,
+      "from_event": false
+    },
+    {
+      "id": "tracy",
+      "hasHero": false,
+      "name": "Трейси (Аукцион)",
+      "image": "assets/images/tracy.jpg",
+      "element": "Fire",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 30,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 15,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": false,
+      "self_selection_season": null,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "erika",
+      "hasHero": true,
+      "name": "Эрика (Сезон 0)",
+      "image": "assets/images/erika.jpg",
+      "element": "Fire",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 25,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "heal_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": true,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 0,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "lovelace",
+      "hasHero": false,
+      "name": "lovelace (Сезон 28)",
+      "image": "assets/images/lovelace.jpg",
+      "element": "Fire",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 30,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "heal_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 28,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "daria",
+      "hasHero": false,
+      "name": "daria (Сезон 28)",
+      "image": "assets/images/daria.jpg",
+      "element": "Fire",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 25,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "heal_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 28,
+      "from_awards_hall": false,
+      "from_event": false
+    },
+    {
+      "id": "cosette",
+      "hasHero": true,
+      "name": "Козетта (Сезон 0)",
+      "image": "assets/images/cosette.jpg",
+      "element": "Fire",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 30,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 30,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "heal_speed_percent",
+          "value": 25,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 0,
+      "from_awards_hall": true,
+      "from_event": true
+    },
+    {
+      "id": "vanessa",
+      "hasHero": false,
+      "name": "Ванесса (Сезон 19)",
+      "image": "assets/images/vanessa.jpg",
+      "element": "Fire",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "heal_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": false,
+      "self_selection_season": 19,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "simon",
+      "hasHero": false,
+      "name": "simon (Сезон 23)",
+      "image": "assets/images/simon.jpg",
+      "element": "Fire",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "offline_gold_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "collect_gold_percent",
+          "value": 20,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 23,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "miku",
+      "hasHero": false,
+      "name": "Мику (VIP)",
+      "image": "assets/images/miku.jpg",
+      "element": "Fire",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "cost_energy_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "march_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": false,
+      "self_selection_season": null,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "christie",
+      "hasHero": false,
+      "name": "christie (Сезон 0)",
+      "image": "assets/images/christie.jpg",
+      "element": "Fire",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 0,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "kenshiro",
+      "hasHero": false,
+      "name": "kenshiro (Сезон 5)",
+      "image": "assets/images/kenshiro.jpg",
+      "element": "Fire",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 5,
+      "from_awards_hall": false,
+      "from_event": false
+    },
+    {
+      "id": "brie",
+      "hasHero": true,
+      "name": "Бри (Сезон 17)",
+      "image": "assets/images/brie.jpg",
+      "element": "Fire",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "carry_weight_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "heal_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": false,
+      "self_selection_season": 17,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "penny",
+      "hasHero": false,
+      "name": "penny (Сезон 3)",
+      "image": "assets/images/penny.jpg",
+      "element": "Fire",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 3,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "dean",
+      "hasHero": false,
+      "name": "dean (Сезон 15)",
+      "image": "assets/images/dean.jpg",
+      "element": "Fire",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "carry_weight_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 4,
+          "key": "heal_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 15,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "paul",
+      "hasHero": true,
+      "name": "Пауль (Сезон 0)",
+      "image": "assets/images/paul.jpg",
+      "element": "Fire",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 30,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "heal_speed_percent",
+          "value": 25,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 0,
+      "from_awards_hall": true,
+      "from_event": true
+    },
+    {
+      "id": "wallis",
+      "hasHero": true,
+      "name": "Варис (Сезон 0)",
+      "image": "assets/images/wallis.jpg",
+      "element": "Fire",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "heal_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 0,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "dolvar",
+      "hasHero": true,
+      "name": "Долвар (Сезон 0)",
+      "image": "assets/images/dolvar.jpg",
+      "element": "Fire",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "heal_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 0,
+      "from_awards_hall": true,
+      "from_event": true
+    },
+    {
+      "id": "allen",
+      "hasHero": true,
+      "name": "Аллен (Сезон 0)",
+      "image": "assets/images/allen.jpg",
+      "element": "Fire",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 10,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "heal_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 0,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "giselle",
+      "hasHero": false,
+      "name": "Жизель (Сезон 7)",
+      "image": "assets/images/giselle.jpg",
+      "element": "Fire",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "cost_energy_percent",
+          "value": 10,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": true,
+      "from_self_selection": false,
+      "self_selection_season": 7,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "apollo",
+      "hasHero": false,
+      "name": "apollo (Сезон 11)",
+      "image": "assets/images/apollo.jpg",
+      "element": "Fire",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 30,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 11,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "dain",
+      "hasHero": false,
+      "name": "Даин (Сезон 13)",
+      "image": "assets/images/dain.jpg",
+      "element": "Fire",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "heal_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": false,
+      "self_selection_season": 13,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "anko",
+      "hasHero": true,
+      "name": "Анко (Сезон 0)",
+      "image": "assets/images/anko.jpg",
+      "element": "Fire",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 30,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "heal_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 0,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "gro",
+      "hasHero": true,
+      "name": "Гро (Сезон 0)",
+      "image": "assets/images/gro.jpg",
+      "element": "Fire",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 4,
+          "key": "heal_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": true,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 0,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "kris",
+      "hasHero": true,
+      "name": "Крис (Сезон 0)",
+      "image": "assets/images/kris.jpg",
+      "element": "Fire",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "collect_gold_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        }
+      ],
+      "from_tavern_common": true,
+      "from_tavern_advanced": true,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 0,
+      "from_awards_hall": true,
+      "from_event": false
+    },
+    {
+      "id": "ophelia",
+      "hasHero": true,
+      "name": "Офелия (Сезон 0)",
+      "image": "assets/images/ophelia.jpg",
+      "element": "Fire",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        }
+      ],
+      "from_tavern_common": true,
+      "from_tavern_advanced": true,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 0,
+      "from_awards_hall": true,
+      "from_event": false
+    },
+    {
+      "id": "samar",
+      "hasHero": true,
+      "name": "Самара (Сезон 9)",
+      "image": "assets/images/samar.jpg",
+      "element": "Fire",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        }
+      ],
+      "from_tavern_common": true,
+      "from_tavern_advanced": true,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 9,
+      "from_awards_hall": true,
+      "from_event": false
+    },
+
+    {
+      "id": "tumnus",
+      "hasHero": false,
+      "name": "Тумнус (Аукцион)",
+      "image": "assets/images/tumnus.jpg",
+      "element": "Goblin",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 30,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 15,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": false,
+      "self_selection_season": null,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "gruen",
+      "hasHero": true,
+      "name": "Грун (Сезон 2)",
+      "image": "assets/images/gruen.jpg",
+      "element": "Goblin",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 25,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "heal_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 2,
+      "from_awards_hall": true,
+      "from_event": true
+    },
+    {
+      "id": "rosamond",
+      "hasHero": true,
+      "name": "Розамунда (Сезон 8)",
+      "image": "assets/images/rosamond.jpg",
+      "element": "Goblin",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 30,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "heal_speed_percent",
+          "value": 25,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 8,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "rogers",
+      "hasHero": false,
+      "name": "rogers (Сезон 22)",
+      "image": "assets/images/rogers.jpg",
+      "element": "Goblin",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "offline_gold_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "collect_gold_percent",
+          "value": 20,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 22,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "suad",
+      "hasHero": false,
+      "name": "suad (Сезон 16)",
+      "image": "assets/images/suad.jpg",
+      "element": "Goblin",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 30,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 16,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "pythia",
+      "hasHero": false,
+      "name": "pythia (Сезон 21)",
+      "image": "assets/images/pythia.jpg",
+      "element": "Goblin",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "cost_energy_percent",
+          "value": 10,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "march_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "carry_weight_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 21,
+      "from_awards_hall": false,
+      "from_event": false
+    },
+    {
+      "id": "luvia",
+      "hasHero": false,
+      "name": "luvia (Сезон 20)",
+      "image": "assets/images/luvia.jpg",
+      "element": "Goblin",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "heal_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "cost_energy_percent",
+          "value": 10,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 20,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "rila",
+      "hasHero": false,
+      "name": "rila (Сезон 26)",
+      "image": "assets/images/rila.jpg",
+      "element": "Goblin",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "heal_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 26,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "lilith",
+      "hasHero": false,
+      "name": "lilith (Сезон 26)",
+      "image": "assets/images/lilith.jpg",
+      "element": "Goblin",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "heal_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 26,
+      "from_awards_hall": false,
+      "from_event": false
+    },
+    {
+      "id": "chiyoko",
+      "hasHero": false,
+      "name": "chiyoko",
+      "image": "assets/images/chiyoko.jpg",
+      "element": "Goblin",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": null,
+          "value": null,
+          "leaderOnly": null
+        },
+        {
+          "lvl": 2,
+          "key": null,
+          "value": null,
+          "leaderOnly": null
+        },
+        {
+          "lvl": 4,
+          "key": null,
+          "value": null,
+          "leaderOnly": null
+        },
+        {
+          "lvl": 5,
+          "key": null,
+          "value": null,
+          "leaderOnly": null
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": false,
+      "self_selection_season": null,
+      "from_awards_hall": false,
+      "from_event": false
+    },
+    {
+      "id": "benjamin",
+      "hasHero": false,
+      "name": "benjamin (Сезон 12)",
+      "image": "assets/images/benjamin.jpg",
+      "element": "Goblin",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 12,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "lomax",
+      "hasHero": false,
+      "name": "lomax (Сезон 6)",
+      "image": "assets/images/lomax.jpg",
+      "element": "Goblin",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 6,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "meniere",
+      "hasHero": true,
+      "name": "Менил (Сезон 4)",
+      "image": "assets/images/meniere.jpg",
+      "element": "Goblin",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 4,
+      "from_awards_hall": true,
+      "from_event": true
+    },
+    {
+      "id": "blackwell",
+      "hasHero": false,
+      "name": "blackwell (Сезон 24)",
+      "image": "assets/images/blackwell.jpg",
+      "element": "Goblin",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "heal_speed_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 24,
+      "from_awards_hall": false,
+      "from_event": false
+    },
+    {
+      "id": "wendy",
+      "hasHero": false,
+      "name": "wendy (Сезон 14)",
+      "image": "assets/images/wendy.jpg",
+      "element": "Goblin",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "heal_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 14,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "catherine",
+      "hasHero": true,
+      "name": "Катерина (Сезон 0)",
+      "image": "assets/images/catherine.jpg",
+      "element": "Goblin",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "offline_gold_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "collect_gold_percent",
+          "value": 20,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": true,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 0,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "claudia",
+      "hasHero": true,
+      "name": "Клаудия (Сезон 0)",
+      "image": "assets/images/claudia.jpg",
+      "element": "Goblin",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "offline_gold_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "heal_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "carry_weight_percent",
+          "value": 20,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 0,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "isaac",
+      "hasHero": true,
+      "name": "Иссак (Сезон 0)",
+      "image": "assets/images/isaac.jpg",
+      "element": "Goblin",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "offline_gold_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "carry_weight_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 0,
+      "from_awards_hall": true,
+      "from_event": true
+    },
+    {
+      "id": "alucard",
+      "hasHero": true,
+      "name": "Алукард (Сезон 0)",
+      "image": "assets/images/alucard.jpg",
+      "element": "Goblin",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "offline_gold_percent",
+          "value": 20,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": true,
+      "from_tavern_advanced": true,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 0,
+      "from_awards_hall": true,
+      "from_event": false
+    },
+
+    {
+      "id": "clarance",
+      "hasHero": false,
+      "name": "Кларенс (Аукцион)",
+      "image": "assets/images/clarance.jpg",
+      "element": "Ice",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 30,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 15,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": false,
+      "self_selection_season": null,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "filius",
+      "hasHero": false,
+      "name": "filius (Сезон 10)",
+      "image": "assets/images/filius.jpg",
+      "element": "Ice",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "heal_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 10,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "hana",
+      "hasHero": false,
+      "name": "hana (Сезон 21)",
+      "image": "assets/images/hana.jpg",
+      "element": "Ice",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "cost_energy_percent",
+          "value": 10,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "march_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 21,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "ao deng ge ri le",
+      "hasHero": false,
+      "name": "ao deng ge ri le (Сезон 25)",
+      "image": "assets/images/ao_deng_ge_ri_le.jpg",
+      "element": "Ice",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 25,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "judy",
+      "hasHero": true,
+      "name": "Джуди (Сезон 29)",
+      "image": "assets/images/judy.jpg",
+      "element": "Ice",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": false,
+      "self_selection_season": 29,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "keith",
+      "hasHero": true,
+      "name": "Кит (Сезон 18)",
+      "image": "assets/images/keith.jpg",
+      "element": "Ice",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 30,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": false,
+      "self_selection_season": 18,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "auyue",
+      "hasHero": false,
+      "name": "auyue (Сезон 25)",
+      "image": "assets/images/au_yue.jpg",
+      "element": "Ice",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "heal_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 25,
+      "from_awards_hall": false,
+      "from_event": false
+    },
+    {
+      "id": "jessica",
+      "hasHero": true,
+      "name": "Джессика (Сезон 4)",
+      "image": "assets/images/jessica.jpg",
+      "element": "Ice",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "cost_energy_percent",
+          "value": 10,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 4,
+      "from_awards_hall": true,
+      "from_event": true
+    },
+    {
+      "id": "pedra",
+      "hasHero": true,
+      "name": "Педра (Сезон 8)",
+      "image": "assets/images/pedra.jpg",
+      "element": "Ice",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "cost_energy_percent",
+          "value": 10,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": true,
+      "from_self_selection": false,
+      "self_selection_season": 8,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "lilani",
+      "hasHero": false,
+      "name": "Лилани (Сезон 6)",
+      "image": "assets/images/lilani.jpg",
+      "element": "Ice",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 6,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "vera",
+      "hasHero": true,
+      "name": "Вера (Сезон 2)",
+      "image": "assets/images/vera.jpg",
+      "element": "Ice",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 10,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": true,
+      "from_self_selection": false,
+      "self_selection_season": 2,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "parr",
+      "hasHero": false,
+      "name": "parr (Сезон 12)",
+      "image": "assets/images/parr.jpg",
+      "element": "Ice",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 12,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "maud",
+      "hasHero": false,
+      "name": "maud (Сезон 16)",
+      "image": "assets/images/maud.jpg",
+      "element": "Ice",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 30,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 16,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "nathaniel",
+      "hasHero": false,
+      "name": "nathaniel (Сезон 20)",
+      "image": "assets/images/nathaniel.jpg",
+      "element": "Ice",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 30,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "heal_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 20,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+        {
+      "id": "rudolph",
+      "hasHero": true,
+      "name": "Рудольф (Сезон 14)",
+      "image": "assets/images/rudolph.jpg",
+      "element": "Ice",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "heal_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 14,
+      "from_awards_hall": true,
+      "from_event": true
+    },
+    {
+      "id": "hadi",
+      "hasHero": true,
+      "name": "Хэди (Сезон 0)",
+      "image": "assets/images/hadi.jpg",
+      "element": "Ice",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "offline_gold_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "collect_gold_percent",
+          "value": 20,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": true,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": null,
+      "from_awards_hall": false,
+      "from_event": false
+    },
+    {
+      "id": "nicole",
+      "hasHero": true,
+      "name": "Николь (Сезон 0)",
+      "image": "assets/images/nicole.jpg",
+      "element": "Ice",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "offline_gold_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "collect_gold_percent",
+          "value": 20,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 0,
+      "from_awards_hall": true,
+      "from_event": true
+    },
+    {
+      "id": "ralph",
+      "hasHero": true,
+      "name": "Ральф (Сезон 0)",
+      "image": "assets/images/ralph.jpg",
+      "element": "Ice",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": null,
+          "value": null,
+          "leaderOnly": null
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "carry_weight_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 0,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "merlin",
+      "hasHero": true,
+      "name": "Мерлин (Сезон 0)",
+      "image": "assets/images/merlin.jpg",
+      "element": "Ice",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": null,
+          "value": null,
+          "leaderOnly": null
+        },
+        {
+          "lvl": 2,
+          "key": "march_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": true,
+      "from_tavern_advanced": true,
+      "from_tavern_professional": true,
+      "from_self_selection": true,
+      "self_selection_season": 0,
+      "from_awards_hall": true,
+      "from_event": false
+    },
+    {
+      "id": "trish",
+      "hasHero": false,
+      "name": "Триш (Сезон 29)",
+      "image": "assets/images/trish.jpg",
+      "element": "Ice",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "heal_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 29,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "enzo",
+      "hasHero": false,
+      "name": "Энцо (Сезон 33)",
+      "image": "assets/images/enzo.jpg",
+      "element": "Ice",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "heal_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "heal_speed_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 33,
+      "from_awards_hall": false,
+      "from_event": false
+    },
+    {
+      "id": "rebecca",
+      "hasHero": false,
+      "name": "Ребекка (Сезон 33)",
+      "image": "assets/images/rebecca.jpg",
+      "element": "Ice",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "heal_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "heal_speed_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 33,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "olaf",
+      "hasHero": false,
+      "name": "Олаф (Сезон 36)",
+      "image": "assets/images/olaf.jpg",
+      "element": "Ice",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 36,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "nina",
+      "hasHero": false,
+      "name": "Нина (Сезон 37)",
+      "image": "assets/images/nina.jpg",
+      "element": "Ice",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "heal_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "heal_speed_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 37,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "christina",
+      "hasHero": false,
+      "name": "Кристина (Сезон 45)",
+      "image": "assets/images/christina.jpg",
+      "element": "Ice",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 25,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "heal_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 15,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 45,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "hates",
+      "hasHero": false,
+      "name": "Хатес (Сезон 45)",
+      "image": "assets/images/hates.jpg",
+      "element": "Ice",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "heal_speed_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 45,
+      "from_awards_hall": false,
+      "from_event": false
+    },
+    {
+      "id": "khavik",
+      "hasHero": false,
+      "name": "Хавик (Сезон 49)",
+      "image": "assets/images/khavik.jpg",
+      "element": "Ice",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "heal_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 49,
+      "from_awards_hall": false,
+      "from_event": false
+    },
+    {
+      "id": "selena",
+      "hasHero": false,
+      "name": "Селена (Сезон 49)",
+      "image": "assets/images/selena.jpg",
+      "element": "Ice",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "carry_weight_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 30,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "recovery_percent",
+          "value": 10,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": true,
+      "self_selection_season": 49,
+      "from_awards_hall": false,
+      "from_event": true
+    },
+    {
+      "id": "esline",
+      "hasHero": true,
+      "name": "Эслайн (Сезон 52)",
+      "image": "assets/images/esline.jpg",
+      "element": "Ice",
+      "perks": [
+        {
+          "lvl": 1,
+          "key": "march_speed_percent",
+          "value": 20,
+          "leaderOnly": true
+        },
+        {
+          "lvl": 2,
+          "key": "power_percent",
+          "value": 20,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 4,
+          "key": "power_percent",
+          "value": 25,
+          "leaderOnly": false
+        },
+        {
+          "lvl": 5,
+          "key": "heal_speed_percent",
+          "value": 15,
+          "leaderOnly": true
+        }
+      ],
+      "from_tavern_common": false,
+      "from_tavern_advanced": false,
+      "from_tavern_professional": false,
+      "from_self_selection": false,
+      "self_selection_season": 52,
+      "from_awards_hall": false,
+      "from_event": true
+    }
+  ]
+}

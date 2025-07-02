@@ -1,0 +1,177 @@
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Heroes Squad Combiner</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div id="preloader">
+    <div class="preloader-spinner"></div>
+    <div class="preloader-text">Загрузка...</div>
+  </div>
+  <div id="app">
+    <div id="perk-sort-block">
+      <h2 style="margin-bottom: 8px; font-size: 18px;">Сортировка героев⚡</h2>
+      <div id="perk-columns">
+        <div style="flex:1;">
+          <div class="perk-col-title">Сортируемые</div>
+          <draggable v-model="perkUsedColumns" group="perks" class="perk-column perk-multicolumn" :tag="'div'">
+            <div v-for="(perk, idx) in perkUsedColumns" :key="perk" class="perk-item">
+              <span class="perk-num">{{ idx + 1 }}.</span>
+              {{ perkNames[perk] || perk }}
+            </div>
+          </draggable>
+        </div>
+        <div style="flex:1;">
+          <div class="perk-col-title">Все способности</div>
+          <draggable v-model="perkAllColumns" group="perks" class="perk-column perk-multicolumn" :tag="'div'">
+            <div v-for="(perk, idx) in perkAllColumns" :key="perk" class="perk-item">
+              <span class="perk-num">{{ idx + 1 }}.</span>
+              {{ perkNames[perk] || perk }}
+            </div>
+          </draggable>
+        </div>
+      </div>
+      <div class="perk-sort-controls">
+        <label class="max-squads-label">
+          Максимум отрядов:
+          <input
+            type="number"
+            v-model.number="maxSquadsToShow"
+            min="3"
+            placeholder="15"
+            class="max-squads-input"
+          />
+        </label>
+        <button @click="resetState" class="reset-btn">Сбросить все настройки</button>
+      </div>
+    </div>
+
+    <h1>Список героев:</h1>
+    <div v-for="(heroes, element) in groupedHeroes" :key="element" class="element-group">
+      <h2>
+        <button
+          @click="toggleGroup(element)"
+          @keydown.enter.space.prevent="toggleGroup(element)"
+          type="button"
+          style="all:unset;cursor:pointer;user-select:none;display:inline-block;"
+          :aria-expanded="!isCollapsed(element)"
+        >
+          {{ getElementName(element) }}
+          <span v-if="isCollapsed(element)">➕</span>
+          <span v-else>➖</span>
+        </button>
+      </h2>
+      <div class="heroes-grid" v-show="!isCollapsed(element)">
+        <div v-for="hero in heroes" :key="hero.id" class="hero-tile" :class="getHeroCardClass(hero)">
+          
+          <div class="hero-name">
+            <input type="checkbox" v-model="hero.hasHero" @change="toggleHasHero(hero)">
+            {{ hero.name }}
+          </div>
+          <img :src="hero.image" :alt="hero.name" class="hero-image" />
+          <div>
+          </div>
+          <div class="hero-perks">
+            <div v-for="(perk, idx) in hero.perks" :key="idx" class="perk-star">
+              {{ perk.lvl }}⭐ {{ getPerkName(perk) }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Новый блок для выбора размера отряда и вывода комбинаций -->
+    <div id="squad-combos-block">
+      <h2 style="font-size: 18px;">Комбинации отрядов</h2>
+      <label class="squad-size-label">
+        Размер отряда:
+        <button
+          type="button"
+          :class="{ 'squad-size-btn': true, active: squadSize == 2 }"
+          @click="squadSize = 2"
+        >2</button>
+        <button
+          type="button"
+          :class="{ 'squad-size-btn': true, active: squadSize == 3 }"
+          @click="squadSize = 3"
+        >3</button>
+      </label>
+      <div v-if="Object.keys(squadCombosByElement).length === 0" style="margin-top: 12px; color: #888;">
+        Недостаточно героев для комбинаций.
+      </div>
+      <div v-else style="margin-top: 12px;">
+        <div v-for="(combos, element) in squadCombosByElement" :key="element" style="margin-bottom: 32px;">
+          <h3
+            style="margin-bottom: 10px; color: #2d3a4a; font-size: 20px; cursor:pointer;user-select:none;"
+            @click="toggleSquadCombos(element)"
+          >
+            {{ getElementName(element) }}
+            <span v-if="squadCombosCollapsed[element]">➕</span>
+            <span v-else>➖</span>
+          </h3>
+          <div v-show="!squadCombosCollapsed[element]">
+            <div class="squad-combo-grid">
+              <div
+                v-for="(combo, idx) in combos.slice(0, Math.min(squadCombosShownCount[element] || 3, maxSquadsToShow || 15))"
+                :key="idx"
+                class="squad-combo-row"
+              >
+                <div class="squad-combo-num">{{ idx + 1 }}</div>
+                <div class="squad-combo-heroes">
+                  <div class="squad-leader-icon">
+                    <img :src="combo.leader.image" :alt="combo.leader.name" />
+                    <div class="squad-hero-stars">
+                      <span
+                        v-for="n in 5"
+                        :key="n"
+                        class="squad-hero-star"
+                        :class="{ inactive: n > combo.leader.stars }"
+                      >★</span>
+                    </div>
+                  </div>
+                  <span class="squad-plus">+</span>
+                  <span v-for="m in combo.members" :key="m.id" class="squad-member-icon">
+                    <img :src="m.image" :alt="m.name" />
+                    <div class="squad-hero-stars">
+                      <span
+                        v-for="n in 5"
+                        :key="n"
+                        class="squad-hero-star"
+                        :class="{ inactive: n > m.stars }"
+                      >★</span>
+                    </div>
+                  </span>
+                </div>
+                <div class="squad-combo-perks">
+                  <div class="squad-combo-perks-title"><span>🧮</span>Суммарные способности:</div>
+                  <div v-for="(perk, i) in combo.perks" :key="perk.key" class="squad-combo-perk">
+                    <span>{{ perk.name }}:</span> <span>{{ perk.value }}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div v-if="combos.length > 3" style="margin-top:10px;">
+              <button
+                v-if="(squadCombosShownCount[element] || 3) < Math.min(combos.length, maxSquadsToShow || 15)"
+                class="squad-size-btn"
+                @click="showMoreCombos(element, Math.min(combos.length, maxSquadsToShow || 15))"
+              >Показать ещё</button>
+              <button
+                v-if="(squadCombosShownCount[element] || 3) > 3"
+                class="squad-size-btn squad-hide-btn"
+                @click="hideCombos(element)"
+              >Скрыть</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/vue@3"></script>
+  <script src="https://unpkg.com/vue-draggable-next@2"></script>
+  <script src="src/app.js"></script>
+</body>
+</html>
